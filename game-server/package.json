@@ -1,0 +1,9 @@
+{
+    "name":"chinesechess",
+    "version":"0.0.1",
+    "private":false,
+    "dependencies":{
+        "pomelo":"0.6.0"
+    }
+}
+

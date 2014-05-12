@@ -1,0 +1,71 @@
+
+.container{
+	width: 614px;
+	min-height: 674px;
+	margin: 0 auto;
+	position: relative;
+}
+.chess{
+	position: absolute;
+	top: 15px;
+	left: 15px;
+}
+.piece{
+	width: 40px;
+	height: 40px;
+	padding: 2px;
+	-webkit-border-radius: 30px;
+	border-radius: 30px;
+	background: #c19363;
+	position: absolute;
+	font-weight: 600;
+	box-shadow: 2px 2px 4px #333;
+	cursor: pointer;
+	text-align: center;
+	color: #ad0000;
+	font-family: '华文楷体';
+	font-size: 150%;
+	text-shadow: 1px 1px 1px #fff;
+	overflow: hidden;
+}
+.pieceIn{
+	width: 38px;
+	line-height: 39px;
+	-webkit-border-radius: 20px;
+	border-radius: 20px;
+}
+.blue .pieceIn{
+	color: #1f1f1b;
+	border: 1px solid #dedede;
+}
+.red .pieceIn{
+	color: #ad0000;
+	border: 1px solid #dedede;
+}
+.part{
+	width: 45px;
+	height: 45px;
+	-webkit-border-radius: 30px;
+	border-radius: 30px;
+	background: #f00;
+	position: absolute;
+	opacity: 0;
+	box-shadow: 2px 2px 2px #ccc;
+	cursor: pointer;
+	top: 10px;
+	left: 10px;
+	text-align: center;
+	line-height: 30px;
+	color: #fff;
+}
+.current .pieceIn{
+	color: #fff;
+	text-shadow: 1px 1px 0px #fff;
+}
+
+.mouseBox{ height:42px; width:42px; position: absolute;}
+.mouseP{ height:5px; width:5px; border:1px solid #f00; position:absolute; display:block;}
+.mouseLT{ border-right:none; border-bottom:none; left:0px; top:0px;}
+.mouseRT{ border-left:none; border-bottom:none; right:0px; top:0px;}
+.mouseLB{ border-right:none; border-top:none; left:0px; bottom:0px;}
+.mouseRB{ border-left:none; border-top:none; right:0px; bottom:0px;}
